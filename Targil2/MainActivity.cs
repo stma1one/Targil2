@@ -121,7 +121,7 @@ namespace Targil2
 
         private void TurnOff()
         {
-            rc.status = RemoteControl.Status.Off;
+            rc.status = RemoteControl.Status.Off; 
             tvTemp.Text = "";
             downBtn.Enabled = false;
             upBtn.Enabled = false;
